@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All tests">
+
+
+    <test name="Regression Test">
+        <classes>
+            <class name="testing.TestNGDemo">
+                <methods>
+                    <include name="createNewUserTest"/>
+                    <include name="loginTest"/>
+                    <include name="testLoginFun"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+
+
+    <test verbose="2" preserve-order="true" name="C:/Users/User/IdeaProjects/Winter2022TAF">
+        <classes>
+
+            <class name="eShopTest.Funktional1">
+                <methods>
+                    <include name="test11"/>
+                </methods>
+            </class>
+            <class name="eShopTest.Funktional2">
+                <methods>
+                    <include name="test21"/>
+                    <include name="test22"/>
+                </methods>
+            </class>
+            <class name="eShopTest.Funktional3">
+                <methods>
+                    <include name="test31"/>
+                </methods>
+            </class>
+
+
+
+            <class name="homeWork_.HelloWorldTest">
+                <methods>
+                    <include name="testSurroundWithTag"/>
+                </methods>
+            </class>
+            <class name="homeWork_.SixFirstLastTest">
+                <methods>
+                    <include name="testFirstLast6"/>
+                </methods>
+            </class>
+
+
+
+            <class name="rispek.DemoTest">
+                <methods>
+                    <include name="testSum"/>
+                    <include name="test2"/>
+                    <include name="test3"/>
+                    <include name="test4"/>
+                </methods>
+            </class>
+            <class name="rispek.SampleTest">
+                <methods>
+                    <include name="demoTest1"/>
+                    <include name="demoTest2"/>
+                </methods>
+            </class>
+
+<!--            <class name="test_$.CalculatorTest">-->
+<!--                <methods>-->
+<!--                    <include name="addTwoNumsTest"/>-->
+<!--                    <include name="testSoftAssert"/>-->
+<!--                    <include name="testAssertTrue"/>-->
+<!--                    <include name="test123"/>-->
+<!--                </methods>-->
+<!--            </class>-->
+        </classes>
+    </test>
+</suite>
